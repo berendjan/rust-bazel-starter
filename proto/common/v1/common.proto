@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package common.v1;
+
+message ConfigurationIdProto {
+  bytes id = 1; // Unique 16 byte UUID identifier
+  uint32 type = 2;
+}
+
+message GroupObjectIdProto {
+  bytes id = 1; // Unique 16 byte UUID identifier
+  uint32 type = 2;
+}
+
+message StatusResponseProto {
+  int32 code = 1;     // HTTP-like status code
+  string message = 2; // Human-readable message
+}

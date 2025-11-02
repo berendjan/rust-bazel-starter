@@ -1,0 +1,18 @@
+load("@rules_foreign_cc//foreign_cc:defs.bzl", "cmake")
+
+# Build the protoc-gen-rust-grpc plugin using CMake
+cmake(
+    name = "protoc_gen_rust_grpc",
+    cache_entries = {
+        "CMAKE_BUILD_TYPE": "Release",
+        # Optional: specify protobuf version (matches Tonic CI)
+        "PROTOBUF_VERSION": "32.0",
+    },
+    lib_source = "@tonic//:srcs",  # Path inside repo
+    out_binaries = [
+        "protoc",
+        "protoc-gen-rust-grpc",
+    ],
+    tags = ["no-sandbox"],
+    visibility = ["//visibility:public"],
+)

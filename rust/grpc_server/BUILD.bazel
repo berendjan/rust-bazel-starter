@@ -1,0 +1,20 @@
+load("@rules_rust//rust:defs.bzl", "rust_binary")
+
+rust_binary(
+    name = "grpc_server",
+    srcs = glob(["**/*.rs"]),
+    visibility = ["//visibility:public"],
+    deps = [
+        "//proto/common/v1:common_proto",
+        "//proto/configuration/v1:configuration_proto",
+        "//proto/configuration_service/v1:configuration_service_proto",
+        "//proto/group_object/v1:group_object_proto",
+        "//proto/group_object_service/v1:group_object_service_proto",
+        "//rust/direct_messenger",
+        "@crates//:protobuf",
+        "@crates//:tokio",
+        "@crates//:tonic",
+        "@crates//:tonic-protobuf",
+        "@crates//:uuid",
+    ],
+)

@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package configuration_service.v1;
+
+import "configuration/v1/configuration.proto";
+import "common/v1/common.proto";
+
+service Configuration {
+  rpc CreateAccount(configuration.v1.AccountCreationRequestProto)
+      returns (configuration.v1.AccountConfigurationProto);
+
+  rpc DeleteAccount(configuration.v1.AccountDeletionRequestProto)
+      returns (common.v1.StatusResponseProto);
+
+  rpc RequestToJoinGroup(configuration.v1.RequestToJoinGroupProto)
+      returns (common.v1.StatusResponseProto);
+
+  rpc ListConfigurationEvents(
+      configuration.v1.ListConfigurationEventsRequestProto)
+      returns (configuration.v1.ListConfigurationEventsResponseProto);
+
+  rpc AcceptRequestToJoinGroup(configuration.v1.AcceptRequestToJoinGroupProto)
+      returns (common.v1.StatusResponseProto);
+
+  rpc DenyRequestToJoinGroup(configuration.v1.DenyRequestToJoinGroupProto)
+      returns (common.v1.StatusResponseProto);
+
+  rpc ListGroups(configuration.v1.ListGroupsRequestProto)
+      returns (configuration.v1.ListGroupsResponseProto);
+
+  rpc DeleteMember(configuration.v1.MemberDeletionRequestProto)
+      returns (common.v1.StatusResponseProto);
+}

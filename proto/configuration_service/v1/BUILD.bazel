@@ -1,0 +1,23 @@
+load("//:proto/rust_proto_gen.bzl", "crate_mapping_dep", "rust_proto_gen")
+
+rust_proto_gen(
+    name = "configuration_service_proto",
+    srcs = ["configuration_service.proto"],
+    crate_mapping = [
+        crate_mapping_dep(
+            "common_proto",
+            ["common/v1/common.proto"],
+        ),
+        crate_mapping_dep(
+            "configuration_proto",
+            ["configuration/v1/configuration.proto"],
+        ),
+    ],
+    grpc = True,
+    mod = "configuration_service",
+    proto_dir = "proto/configuration_service/v1",
+    deps = [
+        "//proto/common/v1:common_proto",
+        "//proto/configuration/v1:configuration_proto",
+    ],
+)

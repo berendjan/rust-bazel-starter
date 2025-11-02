@@ -1,0 +1,3353 @@
+{
+  "sysroot": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/external/rules_rust++rust+rust_analyzer_1.91.0_tools",
+  "sysroot_src": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/external/rules_rust++rust+rust_analyzer_1.91.0_tools/lib/rustlib/src/library",
+  "crates": [
+    {
+      "display_name": "atomic_waker",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__atomic-waker-1.1.2/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "atomic_waker",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__atomic-waker-1.1.2",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "atomic_waker",
+        "CARGO_PKG_VERSION": "1.1.2",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "1",
+        "CARGO_PKG_VERSION_PATCH": "2",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__atomic-waker-1.1.2"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "base64",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__base64-0.22.1/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"alloc\"",
+        "feature=\"default\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "base64",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__base64-0.22.1",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "base64",
+        "CARGO_PKG_VERSION": "0.22.1",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "22",
+        "CARGO_PKG_VERSION_PATCH": "1",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__base64-0.22.1"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "bytes",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__bytes-1.10.1/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"default\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "bytes",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__bytes-1.10.1",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "bytes",
+        "CARGO_PKG_VERSION": "1.10.1",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "10",
+        "CARGO_PKG_VERSION_PATCH": "1",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__bytes-1.10.1"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "cfg_if",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__cfg-if-1.0.4/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "cfg_if",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__cfg-if-1.0.4",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "cfg_if",
+        "CARGO_PKG_VERSION": "1.0.4",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "4",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__cfg-if-1.0.4"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "critical_section",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__critical-section-1.2.0/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "critical_section",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__critical-section-1.2.0",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "critical_section",
+        "CARGO_PKG_VERSION": "1.2.0",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "2",
+        "CARGO_PKG_VERSION_PATCH": "0",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__critical-section-1.2.0"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "equivalent",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__equivalent-1.0.2/src/lib.rs",
+      "edition": "2015",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "equivalent",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__equivalent-1.0.2",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "equivalent",
+        "CARGO_PKG_VERSION": "1.0.2",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "2",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__equivalent-1.0.2"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "fnv",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__fnv-1.0.7/lib.rs",
+      "edition": "2015",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"default\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "fnv",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__fnv-1.0.7",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "fnv",
+        "CARGO_PKG_VERSION": "1.0.7",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "7",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__fnv-1.0.7"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "futures_core",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__futures-core-0.3.31/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"alloc\"",
+        "feature=\"default\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "futures_core",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__futures-core-0.3.31",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "futures_core",
+        "CARGO_PKG_VERSION": "0.3.31",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "3",
+        "CARGO_PKG_VERSION_PATCH": "31",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__futures-core-0.3.31"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "futures_sink",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__futures-sink-0.3.31/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"alloc\"",
+        "feature=\"default\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "futures_sink",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__futures-sink-0.3.31",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "futures_sink",
+        "CARGO_PKG_VERSION": "0.3.31",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "3",
+        "CARGO_PKG_VERSION_PATCH": "31",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__futures-sink-0.3.31"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "futures_task",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__futures-task-0.3.31/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"alloc\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "futures_task",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__futures-task-0.3.31",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "futures_task",
+        "CARGO_PKG_VERSION": "0.3.31",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "3",
+        "CARGO_PKG_VERSION_PATCH": "31",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__futures-task-0.3.31"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "hashbrown",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__hashbrown-0.16.0/src/lib.rs",
+      "edition": "2021",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "hashbrown",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__hashbrown-0.16.0",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "hashbrown",
+        "CARGO_PKG_VERSION": "0.16.0",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "16",
+        "CARGO_PKG_VERSION_PATCH": "0",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__hashbrown-0.16.0"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "httparse",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__httparse-1.10.1/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "source": {
+        "include_dirs": [
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__httparse-1.10.1/src",
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/external/rules_rust++crate+crates__httparse-1.10.1/_bs.out_dir"
+        ],
+        "exclude_dirs": []
+      },
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"default\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "httparse",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__httparse-1.10.1",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "httparse",
+        "CARGO_PKG_VERSION": "1.10.1",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "10",
+        "CARGO_PKG_VERSION_PATCH": "1",
+        "CARGO_PKG_VERSION_PRE": "",
+        "OUT_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/external/rules_rust++crate+crates__httparse-1.10.1/_bs.out_dir",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__httparse-1.10.1"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "httpdate",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__httpdate-1.0.3/src/lib.rs",
+      "edition": "2021",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "httpdate",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__httpdate-1.0.3",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "httpdate",
+        "CARGO_PKG_VERSION": "1.0.3",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "3",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__httpdate-1.0.3"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "indexmap",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__indexmap-2.12.0/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 5,
+          "name": "equivalent"
+        },
+        {
+          "crate": 10,
+          "name": "hashbrown"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"default\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "indexmap",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__indexmap-2.12.0",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "indexmap",
+        "CARGO_PKG_VERSION": "2.12.0",
+        "CARGO_PKG_VERSION_MAJOR": "2",
+        "CARGO_PKG_VERSION_MINOR": "12",
+        "CARGO_PKG_VERSION_PATCH": "0",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__indexmap-2.12.0"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "itoa",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__itoa-1.0.15/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "itoa",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__itoa-1.0.15",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "itoa",
+        "CARGO_PKG_VERSION": "1.0.15",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "15",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__itoa-1.0.15"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "libc",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__libc-0.2.177/src/lib.rs",
+      "edition": "2021",
+      "deps": [],
+      "is_workspace_member": false,
+      "source": {
+        "include_dirs": [
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__libc-0.2.177/src",
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/external/rules_rust++crate+crates__libc-0.2.177/_bs.out_dir"
+        ],
+        "exclude_dirs": []
+      },
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"default\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "libc",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__libc-0.2.177",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "libc",
+        "CARGO_PKG_VERSION": "0.2.177",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "2",
+        "CARGO_PKG_VERSION_PATCH": "177",
+        "CARGO_PKG_VERSION_PRE": "",
+        "OUT_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/external/rules_rust++crate+crates__libc-0.2.177/_bs.out_dir",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__libc-0.2.177"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "matchit",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__matchit-0.8.4/src/lib.rs",
+      "edition": "2021",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"default\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "matchit",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__matchit-0.8.4",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "matchit",
+        "CARGO_PKG_VERSION": "0.8.4",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "8",
+        "CARGO_PKG_VERSION_PATCH": "4",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__matchit-0.8.4"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "memchr",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__memchr-2.7.6/src/lib.rs",
+      "edition": "2021",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"alloc\"",
+        "feature=\"default\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "memchr",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__memchr-2.7.6",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "memchr",
+        "CARGO_PKG_VERSION": "2.7.6",
+        "CARGO_PKG_VERSION_MAJOR": "2",
+        "CARGO_PKG_VERSION_MINOR": "7",
+        "CARGO_PKG_VERSION_PATCH": "6",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__memchr-2.7.6"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "mime",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__mime-0.3.17/src/lib.rs",
+      "edition": "2015",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "mime",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__mime-0.3.17",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "mime",
+        "CARGO_PKG_VERSION": "0.3.17",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "3",
+        "CARGO_PKG_VERSION_PATCH": "17",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__mime-0.3.17"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "mio",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__mio-1.1.0/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 15,
+          "name": "libc"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"net\"",
+        "feature=\"os-ext\"",
+        "feature=\"os-poll\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "mio",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__mio-1.1.0",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "mio",
+        "CARGO_PKG_VERSION": "1.1.0",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "1",
+        "CARGO_PKG_VERSION_PATCH": "0",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__mio-1.1.0"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "paste",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__paste-1.0.15/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "source": {
+        "include_dirs": [
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__paste-1.0.15/src",
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-opt-exec-ST-d57f47055a04/bin/external/rules_rust++crate+crates__paste-1.0.15/_bs.out_dir"
+        ],
+        "exclude_dirs": []
+      },
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "paste",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__paste-1.0.15",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "paste",
+        "CARGO_PKG_VERSION": "1.0.15",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "15",
+        "CARGO_PKG_VERSION_PRE": "",
+        "OUT_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-opt-exec-ST-d57f47055a04/bin/external/rules_rust++crate+crates__paste-1.0.15/_bs.out_dir",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__paste-1.0.15",
+        "ZERO_AR_DATE": "1"
+      },
+      "is_proc_macro": true,
+      "proc_macro_dylib_path": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-opt-exec-ST-d57f47055a04/bin/external/rules_rust++crate+crates__paste-1.0.15/libpaste-22802834.dylib"
+    },
+    {
+      "display_name": "percent_encoding",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__percent-encoding-2.3.2/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"alloc\"",
+        "feature=\"default\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "percent_encoding",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__percent-encoding-2.3.2",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "percent_encoding",
+        "CARGO_PKG_VERSION": "2.3.2",
+        "CARGO_PKG_VERSION_MAJOR": "2",
+        "CARGO_PKG_VERSION_MINOR": "3",
+        "CARGO_PKG_VERSION_PATCH": "2",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__percent-encoding-2.3.2"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "pin_project_lite",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__pin-project-lite-0.2.16/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "pin_project_lite",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__pin-project-lite-0.2.16",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "pin_project_lite",
+        "CARGO_PKG_VERSION": "0.2.16",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "2",
+        "CARGO_PKG_VERSION_PATCH": "16",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__pin-project-lite-0.2.16"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "pin_utils",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__pin-utils-0.1.0/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "pin_utils",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__pin-utils-0.1.0",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "pin_utils",
+        "CARGO_PKG_VERSION": "0.1.0",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "1",
+        "CARGO_PKG_VERSION_PATCH": "0",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__pin-utils-0.1.0"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "portable_atomic",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__portable-atomic-1.11.1/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "source": {
+        "include_dirs": [
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__portable-atomic-1.11.1/src",
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/external/rules_rust++crate+crates__portable-atomic-1.11.1/_bs.out_dir"
+        ],
+        "exclude_dirs": []
+      },
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"default\"",
+        "feature=\"fallback\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "portable_atomic",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__portable-atomic-1.11.1",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "portable_atomic",
+        "CARGO_PKG_VERSION": "1.11.1",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "11",
+        "CARGO_PKG_VERSION_PATCH": "1",
+        "CARGO_PKG_VERSION_PRE": "",
+        "OUT_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/external/rules_rust++crate+crates__portable-atomic-1.11.1/_bs.out_dir",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__portable-atomic-1.11.1"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "protobuf",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__protobuf-4.32.0-release/src/shared.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 20,
+          "name": "paste"
+        }
+      ],
+      "is_workspace_member": false,
+      "source": {
+        "include_dirs": [
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__protobuf-4.32.0-release/src",
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/external/rules_rust++crate+crates__protobuf-4.32.0-release/_bs.out_dir"
+        ],
+        "exclude_dirs": []
+      },
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "protobuf",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__protobuf-4.32.0-release",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "protobuf",
+        "CARGO_PKG_VERSION": "4.32.0-release",
+        "CARGO_PKG_VERSION_MAJOR": "4",
+        "CARGO_PKG_VERSION_MINOR": "32",
+        "CARGO_PKG_VERSION_PATCH": "0",
+        "CARGO_PKG_VERSION_PRE": "release",
+        "OUT_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/external/rules_rust++crate+crates__protobuf-4.32.0-release/_bs.out_dir",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__protobuf-4.32.0-release"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "serde_core",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__serde_core-1.0.228/src/lib.rs",
+      "edition": "2021",
+      "deps": [],
+      "is_workspace_member": false,
+      "source": {
+        "include_dirs": [
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__serde_core-1.0.228/src",
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/external/rules_rust++crate+crates__serde_core-1.0.228/_bs.out_dir"
+        ],
+        "exclude_dirs": []
+      },
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"default\"",
+        "feature=\"result\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "serde_core",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__serde_core-1.0.228",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "serde_core",
+        "CARGO_PKG_VERSION": "1.0.228",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "228",
+        "CARGO_PKG_VERSION_PRE": "",
+        "OUT_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/external/rules_rust++crate+crates__serde_core-1.0.228/_bs.out_dir",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__serde_core-1.0.228"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "signal_hook_registry",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__signal-hook-registry-1.4.6/src/lib.rs",
+      "edition": "2015",
+      "deps": [
+        {
+          "crate": 15,
+          "name": "libc"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "signal_hook_registry",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__signal-hook-registry-1.4.6",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "signal_hook_registry",
+        "CARGO_PKG_VERSION": "1.4.6",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "4",
+        "CARGO_PKG_VERSION_PATCH": "6",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__signal-hook-registry-1.4.6"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "slab",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__slab-0.4.11/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"default\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "slab",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__slab-0.4.11",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "slab",
+        "CARGO_PKG_VERSION": "0.4.11",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "4",
+        "CARGO_PKG_VERSION_PATCH": "11",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__slab-0.4.11"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "smallvec",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__smallvec-1.15.1/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"const_generics\"",
+        "feature=\"const_new\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "smallvec",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__smallvec-1.15.1",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "smallvec",
+        "CARGO_PKG_VERSION": "1.15.1",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "15",
+        "CARGO_PKG_VERSION_PATCH": "1",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__smallvec-1.15.1"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "socket2",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__socket2-0.6.1/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 15,
+          "name": "libc"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"all\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "socket2",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__socket2-0.6.1",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "socket2",
+        "CARGO_PKG_VERSION": "0.6.1",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "6",
+        "CARGO_PKG_VERSION_PATCH": "1",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__socket2-0.6.1"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "sync_wrapper",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__sync_wrapper-1.0.2/src/lib.rs",
+      "edition": "2021",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "sync_wrapper",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__sync_wrapper-1.0.2",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "sync_wrapper",
+        "CARGO_PKG_VERSION": "1.0.2",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "2",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__sync_wrapper-1.0.2"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "tower_layer",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tower-layer-0.3.3/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "tower_layer",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tower-layer-0.3.3",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "tower_layer",
+        "CARGO_PKG_VERSION": "0.3.3",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "3",
+        "CARGO_PKG_VERSION_PATCH": "3",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__tower-layer-0.3.3"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "tower_service",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tower-service-0.3.3/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "tower_service",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tower-service-0.3.3",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "tower_service",
+        "CARGO_PKG_VERSION": "0.3.3",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "3",
+        "CARGO_PKG_VERSION_PATCH": "3",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__tower-service-0.3.3"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "try_lock",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__try-lock-0.2.5/src/lib.rs",
+      "edition": "2015",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "try_lock",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__try-lock-0.2.5",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "try_lock",
+        "CARGO_PKG_VERSION": "0.2.5",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "2",
+        "CARGO_PKG_VERSION_PATCH": "5",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__try-lock-0.2.5"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "unicode_ident",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__unicode-ident-1.0.22/src/lib.rs",
+      "edition": "2018",
+      "deps": [],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "unicode_ident",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__unicode-ident-1.0.22",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "unicode_ident",
+        "CARGO_PKG_VERSION": "1.0.22",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "22",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__unicode-ident-1.0.22"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "want",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__want-0.3.1/src/lib.rs",
+      "edition": "2018",
+      "deps": [
+        {
+          "crate": 34,
+          "name": "try_lock"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "want",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__want-0.3.1",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "want",
+        "CARGO_PKG_VERSION": "0.3.1",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "3",
+        "CARGO_PKG_VERSION_PATCH": "1",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__want-0.3.1"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "direct_messenger",
+      "root_module": "/Users/berendjanlange/Developer/rust-bazel-starter/rust/direct_messenger/direct_messenger.rs",
+      "edition": "2024",
+      "deps": [],
+      "is_workspace_member": true,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "direct_messenger",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/rust/direct_messenger",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "direct_messenger",
+        "CARGO_PKG_VERSION": "0.0.0",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "0",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": ""
+      },
+      "is_proc_macro": false,
+      "build": {
+        "label": "rust/direct_messenger:direct_messenger",
+        "build_file": "/Users/berendjanlange/Developer/rust-bazel-starter/rust/direct_messenger/BUILD.bazel",
+        "target_kind": "lib"
+      }
+    },
+    {
+      "display_name": "common_proto",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/proto/common/v1/lib.rs",
+      "edition": "2024",
+      "deps": [
+        {
+          "crate": 25,
+          "name": "protobuf"
+        }
+      ],
+      "is_workspace_member": true,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "common_proto",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/proto/common/v1",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "common_proto",
+        "CARGO_PKG_VERSION": "0.0.0",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "0",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": ""
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "configuration_proto",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/proto/configuration/v1/lib.rs",
+      "edition": "2024",
+      "deps": [
+        {
+          "crate": 38,
+          "name": "common_proto"
+        },
+        {
+          "crate": 25,
+          "name": "protobuf"
+        }
+      ],
+      "is_workspace_member": true,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "configuration_proto",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/proto/configuration/v1",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "configuration_proto",
+        "CARGO_PKG_VERSION": "0.0.0",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "0",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": ""
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "group_object_proto",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/proto/group_object/v1/lib.rs",
+      "edition": "2024",
+      "deps": [
+        {
+          "crate": 38,
+          "name": "common_proto"
+        },
+        {
+          "crate": 25,
+          "name": "protobuf"
+        }
+      ],
+      "is_workspace_member": true,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "group_object_proto",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/proto/group_object/v1",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "group_object_proto",
+        "CARGO_PKG_VERSION": "0.0.0",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "0",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": ""
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "futures_channel",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__futures-channel-0.3.31/src/lib.rs",
+      "edition": "2018",
+      "deps": [
+        {
+          "crate": 7,
+          "name": "futures_core"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"alloc\"",
+        "feature=\"default\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "futures_channel",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__futures-channel-0.3.31",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "futures_channel",
+        "CARGO_PKG_VERSION": "0.3.31",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "3",
+        "CARGO_PKG_VERSION_PATCH": "31",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__futures-channel-0.3.31"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "futures_util",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__futures-util-0.3.31/src/lib.rs",
+      "edition": "2018",
+      "deps": [
+        {
+          "crate": 7,
+          "name": "futures_core"
+        },
+        {
+          "crate": 9,
+          "name": "futures_task"
+        },
+        {
+          "crate": 22,
+          "name": "pin_project_lite"
+        },
+        {
+          "crate": 23,
+          "name": "pin_utils"
+        },
+        {
+          "crate": 28,
+          "name": "slab"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"alloc\"",
+        "feature=\"slab\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "futures_util",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__futures-util-0.3.31",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "futures_util",
+        "CARGO_PKG_VERSION": "0.3.31",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "3",
+        "CARGO_PKG_VERSION_PATCH": "31",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__futures-util-0.3.31"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "getrandom",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__getrandom-0.3.4/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 3,
+          "name": "cfg_if"
+        },
+        {
+          "crate": 15,
+          "name": "libc"
+        }
+      ],
+      "is_workspace_member": false,
+      "source": {
+        "include_dirs": [
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__getrandom-0.3.4/src",
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/external/rules_rust++crate+crates__getrandom-0.3.4/_bs.out_dir"
+        ],
+        "exclude_dirs": []
+      },
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "getrandom",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__getrandom-0.3.4",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "getrandom",
+        "CARGO_PKG_VERSION": "0.3.4",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "3",
+        "CARGO_PKG_VERSION_PATCH": "4",
+        "CARGO_PKG_VERSION_PRE": "",
+        "OUT_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/external/rules_rust++crate+crates__getrandom-0.3.4/_bs.out_dir",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__getrandom-0.3.4"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "http",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__http-1.3.1/src/lib.rs",
+      "edition": "2018",
+      "deps": [
+        {
+          "crate": 2,
+          "name": "bytes"
+        },
+        {
+          "crate": 6,
+          "name": "fnv"
+        },
+        {
+          "crate": 14,
+          "name": "itoa"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"default\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "http",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__http-1.3.1",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "http",
+        "CARGO_PKG_VERSION": "1.3.1",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "3",
+        "CARGO_PKG_VERSION_PATCH": "1",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__http-1.3.1"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "http_body",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__http-body-1.0.1/src/lib.rs",
+      "edition": "2018",
+      "deps": [
+        {
+          "crate": 2,
+          "name": "bytes"
+        },
+        {
+          "crate": 44,
+          "name": "http"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "http_body",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__http-body-1.0.1",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "http_body",
+        "CARGO_PKG_VERSION": "1.0.1",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "1",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__http-body-1.0.1"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "http_body_util",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__http-body-util-0.1.3/src/lib.rs",
+      "edition": "2018",
+      "deps": [
+        {
+          "crate": 2,
+          "name": "bytes"
+        },
+        {
+          "crate": 7,
+          "name": "futures_core"
+        },
+        {
+          "crate": 44,
+          "name": "http"
+        },
+        {
+          "crate": 45,
+          "name": "http_body"
+        },
+        {
+          "crate": 22,
+          "name": "pin_project_lite"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"default\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "http_body_util",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__http-body-util-0.1.3",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "http_body_util",
+        "CARGO_PKG_VERSION": "0.1.3",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "1",
+        "CARGO_PKG_VERSION_PATCH": "3",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__http-body-util-0.1.3"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "once_cell",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__once_cell-1.21.3/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 4,
+          "name": "critical_section"
+        },
+        {
+          "crate": 24,
+          "name": "portable_atomic"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"alloc\"",
+        "feature=\"critical-section\"",
+        "feature=\"default\"",
+        "feature=\"portable-atomic\"",
+        "feature=\"race\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "once_cell",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__once_cell-1.21.3",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "once_cell",
+        "CARGO_PKG_VERSION": "1.21.3",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "21",
+        "CARGO_PKG_VERSION_PATCH": "3",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__once_cell-1.21.3"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "proc_macro2",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__proc-macro2-1.0.103/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 35,
+          "name": "unicode_ident"
+        }
+      ],
+      "is_workspace_member": false,
+      "source": {
+        "include_dirs": [
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__proc-macro2-1.0.103/src",
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-opt-exec-ST-d57f47055a04/bin/external/rules_rust++crate+crates__proc-macro2-1.0.103/_bs.out_dir"
+        ],
+        "exclude_dirs": []
+      },
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"default\"",
+        "feature=\"proc-macro\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "proc_macro2",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__proc-macro2-1.0.103",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "proc_macro2",
+        "CARGO_PKG_VERSION": "1.0.103",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "103",
+        "CARGO_PKG_VERSION_PRE": "",
+        "OUT_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-opt-exec-ST-d57f47055a04/bin/external/rules_rust++crate+crates__proc-macro2-1.0.103/_bs.out_dir",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__proc-macro2-1.0.103"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "quote",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__quote-1.0.41/src/lib.rs",
+      "edition": "2018",
+      "deps": [
+        {
+          "crate": 48,
+          "name": "proc_macro2"
+        }
+      ],
+      "is_workspace_member": false,
+      "source": {
+        "include_dirs": [
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__quote-1.0.41/src",
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-opt-exec-ST-d57f47055a04/bin/external/rules_rust++crate+crates__quote-1.0.41/_bs.out_dir"
+        ],
+        "exclude_dirs": []
+      },
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"default\"",
+        "feature=\"proc-macro\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "quote",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__quote-1.0.41",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "quote",
+        "CARGO_PKG_VERSION": "1.0.41",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "41",
+        "CARGO_PKG_VERSION_PRE": "",
+        "OUT_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-opt-exec-ST-d57f47055a04/bin/external/rules_rust++crate+crates__quote-1.0.41/_bs.out_dir",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__quote-1.0.41"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "syn",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__syn-2.0.108/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 48,
+          "name": "proc_macro2"
+        },
+        {
+          "crate": 49,
+          "name": "quote"
+        },
+        {
+          "crate": 35,
+          "name": "unicode_ident"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"clone-impls\"",
+        "feature=\"default\"",
+        "feature=\"derive\"",
+        "feature=\"extra-traits\"",
+        "feature=\"fold\"",
+        "feature=\"full\"",
+        "feature=\"parsing\"",
+        "feature=\"printing\"",
+        "feature=\"proc-macro\"",
+        "feature=\"visit\"",
+        "feature=\"visit-mut\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "syn",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__syn-2.0.108",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "syn",
+        "CARGO_PKG_VERSION": "2.0.108",
+        "CARGO_PKG_VERSION_MAJOR": "2",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "108",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__syn-2.0.108"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "tokio_macros",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tokio-macros-2.6.0/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 48,
+          "name": "proc_macro2"
+        },
+        {
+          "crate": 49,
+          "name": "quote"
+        },
+        {
+          "crate": 50,
+          "name": "syn"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "tokio_macros",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tokio-macros-2.6.0",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "tokio_macros",
+        "CARGO_PKG_VERSION": "2.6.0",
+        "CARGO_PKG_VERSION_MAJOR": "2",
+        "CARGO_PKG_VERSION_MINOR": "6",
+        "CARGO_PKG_VERSION_PATCH": "0",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__tokio-macros-2.6.0",
+        "ZERO_AR_DATE": "1"
+      },
+      "is_proc_macro": true,
+      "proc_macro_dylib_path": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-opt-exec-ST-d57f47055a04/bin/external/rules_rust++crate+crates__tokio-macros-2.6.0/libtokio_macros-2574100351.dylib"
+    },
+    {
+      "display_name": "tracing_attributes",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tracing-attributes-0.1.30/src/lib.rs",
+      "edition": "2018",
+      "deps": [
+        {
+          "crate": 48,
+          "name": "proc_macro2"
+        },
+        {
+          "crate": 49,
+          "name": "quote"
+        },
+        {
+          "crate": 50,
+          "name": "syn"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "tracing_attributes",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tracing-attributes-0.1.30",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "tracing_attributes",
+        "CARGO_PKG_VERSION": "0.1.30",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "1",
+        "CARGO_PKG_VERSION_PATCH": "30",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__tracing-attributes-0.1.30",
+        "ZERO_AR_DATE": "1"
+      },
+      "is_proc_macro": true,
+      "proc_macro_dylib_path": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-opt-exec-ST-d57f47055a04/bin/external/rules_rust++crate+crates__tracing-attributes-0.1.30/libtracing_attributes-204608365.dylib"
+    },
+    {
+      "display_name": "tracing_core",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tracing-core-0.1.34/src/lib.rs",
+      "edition": "2018",
+      "deps": [
+        {
+          "crate": 47,
+          "name": "once_cell"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"once_cell\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "tracing_core",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tracing-core-0.1.34",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "tracing_core",
+        "CARGO_PKG_VERSION": "0.1.34",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "1",
+        "CARGO_PKG_VERSION_PATCH": "34",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__tracing-core-0.1.34"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "async_trait",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__async-trait-0.1.89/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 48,
+          "name": "proc_macro2"
+        },
+        {
+          "crate": 49,
+          "name": "quote"
+        },
+        {
+          "crate": 50,
+          "name": "syn"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "async_trait",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__async-trait-0.1.89",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "async_trait",
+        "CARGO_PKG_VERSION": "0.1.89",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "1",
+        "CARGO_PKG_VERSION_PATCH": "89",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__async-trait-0.1.89",
+        "ZERO_AR_DATE": "1"
+      },
+      "is_proc_macro": true,
+      "proc_macro_dylib_path": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-opt-exec-ST-d57f47055a04/bin/external/rules_rust++crate+crates__async-trait-0.1.89/libasync_trait-3024902214.dylib"
+    },
+    {
+      "display_name": "axum_core",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__axum-core-0.5.5/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 2,
+          "name": "bytes"
+        },
+        {
+          "crate": 7,
+          "name": "futures_core"
+        },
+        {
+          "crate": 44,
+          "name": "http"
+        },
+        {
+          "crate": 45,
+          "name": "http_body"
+        },
+        {
+          "crate": 46,
+          "name": "http_body_util"
+        },
+        {
+          "crate": 18,
+          "name": "mime"
+        },
+        {
+          "crate": 22,
+          "name": "pin_project_lite"
+        },
+        {
+          "crate": 31,
+          "name": "sync_wrapper"
+        },
+        {
+          "crate": 32,
+          "name": "tower_layer"
+        },
+        {
+          "crate": 33,
+          "name": "tower_service"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "axum_core",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__axum-core-0.5.5",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "axum_core",
+        "CARGO_PKG_VERSION": "0.5.5",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "5",
+        "CARGO_PKG_VERSION_PATCH": "5",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__axum-core-0.5.5"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "pin_project_internal",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__pin-project-internal-1.1.10/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 48,
+          "name": "proc_macro2"
+        },
+        {
+          "crate": 49,
+          "name": "quote"
+        },
+        {
+          "crate": 50,
+          "name": "syn"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "pin_project_internal",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__pin-project-internal-1.1.10",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "pin_project_internal",
+        "CARGO_PKG_VERSION": "1.1.10",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "1",
+        "CARGO_PKG_VERSION_PATCH": "10",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__pin-project-internal-1.1.10",
+        "ZERO_AR_DATE": "1"
+      },
+      "is_proc_macro": true,
+      "proc_macro_dylib_path": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-opt-exec-ST-d57f47055a04/bin/external/rules_rust++crate+crates__pin-project-internal-1.1.10/libpin_project_internal-481158190.dylib"
+    },
+    {
+      "display_name": "serde_derive",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__serde_derive-1.0.228/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 48,
+          "name": "proc_macro2"
+        },
+        {
+          "crate": 49,
+          "name": "quote"
+        },
+        {
+          "crate": 50,
+          "name": "syn"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"default\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "serde_derive",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__serde_derive-1.0.228",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "serde_derive",
+        "CARGO_PKG_VERSION": "1.0.228",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "228",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__serde_derive-1.0.228",
+        "ZERO_AR_DATE": "1"
+      },
+      "is_proc_macro": true,
+      "proc_macro_dylib_path": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-opt-exec-ST-d57f47055a04/bin/external/rules_rust++crate+crates__serde_derive-1.0.228/libserde_derive-557357478.dylib"
+    },
+    {
+      "display_name": "tokio",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tokio-1.48.0/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 2,
+          "name": "bytes"
+        },
+        {
+          "crate": 15,
+          "name": "libc"
+        },
+        {
+          "crate": 19,
+          "name": "mio"
+        },
+        {
+          "crate": 22,
+          "name": "pin_project_lite"
+        },
+        {
+          "crate": 27,
+          "name": "signal_hook_registry"
+        },
+        {
+          "crate": 30,
+          "name": "socket2"
+        },
+        {
+          "crate": 51,
+          "name": "tokio_macros"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"bytes\"",
+        "feature=\"default\"",
+        "feature=\"io-std\"",
+        "feature=\"io-util\"",
+        "feature=\"libc\"",
+        "feature=\"macros\"",
+        "feature=\"mio\"",
+        "feature=\"net\"",
+        "feature=\"rt\"",
+        "feature=\"rt-multi-thread\"",
+        "feature=\"signal\"",
+        "feature=\"signal-hook-registry\"",
+        "feature=\"socket2\"",
+        "feature=\"sync\"",
+        "feature=\"time\"",
+        "feature=\"tokio-macros\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "tokio",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tokio-1.48.0",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "tokio",
+        "CARGO_PKG_VERSION": "1.48.0",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "48",
+        "CARGO_PKG_VERSION_PATCH": "0",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__tokio-1.48.0"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "tokio_stream",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tokio-stream-0.1.17/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 7,
+          "name": "futures_core"
+        },
+        {
+          "crate": 22,
+          "name": "pin_project_lite"
+        },
+        {
+          "crate": 58,
+          "name": "tokio"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"net\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "tokio_stream",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tokio-stream-0.1.17",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "tokio_stream",
+        "CARGO_PKG_VERSION": "0.1.17",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "1",
+        "CARGO_PKG_VERSION_PATCH": "17",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__tokio-stream-0.1.17"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "tokio_util",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tokio-util-0.7.17/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 2,
+          "name": "bytes"
+        },
+        {
+          "crate": 7,
+          "name": "futures_core"
+        },
+        {
+          "crate": 8,
+          "name": "futures_sink"
+        },
+        {
+          "crate": 22,
+          "name": "pin_project_lite"
+        },
+        {
+          "crate": 58,
+          "name": "tokio"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"codec\"",
+        "feature=\"default\"",
+        "feature=\"io\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "tokio_util",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tokio-util-0.7.17",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "tokio_util",
+        "CARGO_PKG_VERSION": "0.7.17",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "7",
+        "CARGO_PKG_VERSION_PATCH": "17",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__tokio-util-0.7.17"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "tracing",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tracing-0.1.41/src/lib.rs",
+      "edition": "2018",
+      "deps": [
+        {
+          "crate": 22,
+          "name": "pin_project_lite"
+        },
+        {
+          "crate": 52,
+          "name": "tracing_attributes"
+        },
+        {
+          "crate": 53,
+          "name": "tracing_core"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"attributes\"",
+        "feature=\"default\"",
+        "feature=\"std\"",
+        "feature=\"tracing-attributes\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "tracing",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tracing-0.1.41",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "tracing",
+        "CARGO_PKG_VERSION": "0.1.41",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "1",
+        "CARGO_PKG_VERSION_PATCH": "41",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__tracing-0.1.41"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "h2",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__h2-0.4.12/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 0,
+          "name": "atomic_waker"
+        },
+        {
+          "crate": 2,
+          "name": "bytes"
+        },
+        {
+          "crate": 6,
+          "name": "fnv"
+        },
+        {
+          "crate": 7,
+          "name": "futures_core"
+        },
+        {
+          "crate": 8,
+          "name": "futures_sink"
+        },
+        {
+          "crate": 44,
+          "name": "http"
+        },
+        {
+          "crate": 13,
+          "name": "indexmap"
+        },
+        {
+          "crate": 28,
+          "name": "slab"
+        },
+        {
+          "crate": 58,
+          "name": "tokio"
+        },
+        {
+          "crate": 60,
+          "name": "tokio_util"
+        },
+        {
+          "crate": 61,
+          "name": "tracing"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "h2",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__h2-0.4.12",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "h2",
+        "CARGO_PKG_VERSION": "0.4.12",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "4",
+        "CARGO_PKG_VERSION_PATCH": "12",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__h2-0.4.12"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "hyper",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__hyper-1.7.0/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 0,
+          "name": "atomic_waker"
+        },
+        {
+          "crate": 2,
+          "name": "bytes"
+        },
+        {
+          "crate": 41,
+          "name": "futures_channel"
+        },
+        {
+          "crate": 7,
+          "name": "futures_core"
+        },
+        {
+          "crate": 62,
+          "name": "h2"
+        },
+        {
+          "crate": 44,
+          "name": "http"
+        },
+        {
+          "crate": 45,
+          "name": "http_body"
+        },
+        {
+          "crate": 11,
+          "name": "httparse"
+        },
+        {
+          "crate": 12,
+          "name": "httpdate"
+        },
+        {
+          "crate": 14,
+          "name": "itoa"
+        },
+        {
+          "crate": 22,
+          "name": "pin_project_lite"
+        },
+        {
+          "crate": 23,
+          "name": "pin_utils"
+        },
+        {
+          "crate": 29,
+          "name": "smallvec"
+        },
+        {
+          "crate": 58,
+          "name": "tokio"
+        },
+        {
+          "crate": 36,
+          "name": "want"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"client\"",
+        "feature=\"default\"",
+        "feature=\"http1\"",
+        "feature=\"http2\"",
+        "feature=\"server\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "hyper",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__hyper-1.7.0",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "hyper",
+        "CARGO_PKG_VERSION": "1.7.0",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "7",
+        "CARGO_PKG_VERSION_PATCH": "0",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__hyper-1.7.0"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "hyper_util",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__hyper-util-0.1.17/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 2,
+          "name": "bytes"
+        },
+        {
+          "crate": 41,
+          "name": "futures_channel"
+        },
+        {
+          "crate": 7,
+          "name": "futures_core"
+        },
+        {
+          "crate": 42,
+          "name": "futures_util"
+        },
+        {
+          "crate": 44,
+          "name": "http"
+        },
+        {
+          "crate": 45,
+          "name": "http_body"
+        },
+        {
+          "crate": 63,
+          "name": "hyper"
+        },
+        {
+          "crate": 15,
+          "name": "libc"
+        },
+        {
+          "crate": 22,
+          "name": "pin_project_lite"
+        },
+        {
+          "crate": 30,
+          "name": "socket2"
+        },
+        {
+          "crate": 58,
+          "name": "tokio"
+        },
+        {
+          "crate": 33,
+          "name": "tower_service"
+        },
+        {
+          "crate": 61,
+          "name": "tracing"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"client\"",
+        "feature=\"client-legacy\"",
+        "feature=\"default\"",
+        "feature=\"http1\"",
+        "feature=\"http2\"",
+        "feature=\"server\"",
+        "feature=\"server-auto\"",
+        "feature=\"service\"",
+        "feature=\"tokio\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "hyper_util",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__hyper-util-0.1.17",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "hyper_util",
+        "CARGO_PKG_VERSION": "0.1.17",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "1",
+        "CARGO_PKG_VERSION_PATCH": "17",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__hyper-util-0.1.17"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "pin_project",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__pin-project-1.1.10/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 56,
+          "name": "pin_project_internal"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "pin_project",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__pin-project-1.1.10",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "pin_project",
+        "CARGO_PKG_VERSION": "1.1.10",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "1",
+        "CARGO_PKG_VERSION_PATCH": "10",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__pin-project-1.1.10"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "serde",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__serde-1.0.228/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 26,
+          "name": "serde_core"
+        },
+        {
+          "crate": 57,
+          "name": "serde_derive"
+        }
+      ],
+      "is_workspace_member": false,
+      "source": {
+        "include_dirs": [
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__serde-1.0.228/src",
+          "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/external/rules_rust++crate+crates__serde-1.0.228/_bs.out_dir"
+        ],
+        "exclude_dirs": []
+      },
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"default\"",
+        "feature=\"derive\"",
+        "feature=\"serde_derive\"",
+        "feature=\"std\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "serde",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__serde-1.0.228",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "serde",
+        "CARGO_PKG_VERSION": "1.0.228",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "228",
+        "CARGO_PKG_VERSION_PRE": "",
+        "OUT_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/external/rules_rust++crate+crates__serde-1.0.228/_bs.out_dir",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__serde-1.0.228"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "tower",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tower-0.5.2/src/lib.rs",
+      "edition": "2018",
+      "deps": [
+        {
+          "crate": 7,
+          "name": "futures_core"
+        },
+        {
+          "crate": 42,
+          "name": "futures_util"
+        },
+        {
+          "crate": 13,
+          "name": "indexmap"
+        },
+        {
+          "crate": 22,
+          "name": "pin_project_lite"
+        },
+        {
+          "crate": 28,
+          "name": "slab"
+        },
+        {
+          "crate": 31,
+          "name": "sync_wrapper"
+        },
+        {
+          "crate": 58,
+          "name": "tokio"
+        },
+        {
+          "crate": 60,
+          "name": "tokio_util"
+        },
+        {
+          "crate": 32,
+          "name": "tower_layer"
+        },
+        {
+          "crate": 33,
+          "name": "tower_service"
+        },
+        {
+          "crate": 61,
+          "name": "tracing"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"__common\"",
+        "feature=\"balance\"",
+        "feature=\"buffer\"",
+        "feature=\"discover\"",
+        "feature=\"futures-core\"",
+        "feature=\"futures-util\"",
+        "feature=\"indexmap\"",
+        "feature=\"limit\"",
+        "feature=\"load\"",
+        "feature=\"load-shed\"",
+        "feature=\"make\"",
+        "feature=\"pin-project-lite\"",
+        "feature=\"ready-cache\"",
+        "feature=\"slab\"",
+        "feature=\"sync_wrapper\"",
+        "feature=\"tokio\"",
+        "feature=\"tokio-util\"",
+        "feature=\"tracing\"",
+        "feature=\"util\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "tower",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tower-0.5.2",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "tower",
+        "CARGO_PKG_VERSION": "0.5.2",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "5",
+        "CARGO_PKG_VERSION_PATCH": "2",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__tower-0.5.2"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "uuid",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__uuid-1.18.1/src/lib.rs",
+      "edition": "2018",
+      "deps": [
+        {
+          "crate": 43,
+          "name": "getrandom"
+        },
+        {
+          "crate": 66,
+          "name": "serde"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"default\"",
+        "feature=\"rng\"",
+        "feature=\"serde\"",
+        "feature=\"std\"",
+        "feature=\"v4\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "uuid",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__uuid-1.18.1",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "uuid",
+        "CARGO_PKG_VERSION": "1.18.1",
+        "CARGO_PKG_VERSION_MAJOR": "1",
+        "CARGO_PKG_VERSION_MINOR": "18",
+        "CARGO_PKG_VERSION_PATCH": "1",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__uuid-1.18.1"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "axum",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__axum-0.8.6/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 55,
+          "name": "axum_core"
+        },
+        {
+          "crate": 2,
+          "name": "bytes"
+        },
+        {
+          "crate": 42,
+          "name": "futures_util"
+        },
+        {
+          "crate": 44,
+          "name": "http"
+        },
+        {
+          "crate": 45,
+          "name": "http_body"
+        },
+        {
+          "crate": 46,
+          "name": "http_body_util"
+        },
+        {
+          "crate": 14,
+          "name": "itoa"
+        },
+        {
+          "crate": 16,
+          "name": "matchit"
+        },
+        {
+          "crate": 17,
+          "name": "memchr"
+        },
+        {
+          "crate": 18,
+          "name": "mime"
+        },
+        {
+          "crate": 21,
+          "name": "percent_encoding"
+        },
+        {
+          "crate": 22,
+          "name": "pin_project_lite"
+        },
+        {
+          "crate": 26,
+          "name": "serde_core"
+        },
+        {
+          "crate": 31,
+          "name": "sync_wrapper"
+        },
+        {
+          "crate": 67,
+          "name": "tower"
+        },
+        {
+          "crate": 32,
+          "name": "tower_layer"
+        },
+        {
+          "crate": 33,
+          "name": "tower_service"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "axum",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__axum-0.8.6",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "axum",
+        "CARGO_PKG_VERSION": "0.8.6",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "8",
+        "CARGO_PKG_VERSION_PATCH": "6",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__axum-0.8.6"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "hyper_timeout",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__hyper-timeout-0.5.2/src/lib.rs",
+      "edition": "2018",
+      "deps": [
+        {
+          "crate": 63,
+          "name": "hyper"
+        },
+        {
+          "crate": 64,
+          "name": "hyper_util"
+        },
+        {
+          "crate": 22,
+          "name": "pin_project_lite"
+        },
+        {
+          "crate": 58,
+          "name": "tokio"
+        },
+        {
+          "crate": 33,
+          "name": "tower_service"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "hyper_timeout",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__hyper-timeout-0.5.2",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "hyper_timeout",
+        "CARGO_PKG_VERSION": "0.5.2",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "5",
+        "CARGO_PKG_VERSION_PATCH": "2",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__hyper-timeout-0.5.2"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "tonic",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tonic-0.14.1/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 54,
+          "name": "async_trait"
+        },
+        {
+          "crate": 69,
+          "name": "axum"
+        },
+        {
+          "crate": 1,
+          "name": "base64"
+        },
+        {
+          "crate": 2,
+          "name": "bytes"
+        },
+        {
+          "crate": 62,
+          "name": "h2"
+        },
+        {
+          "crate": 44,
+          "name": "http"
+        },
+        {
+          "crate": 45,
+          "name": "http_body"
+        },
+        {
+          "crate": 46,
+          "name": "http_body_util"
+        },
+        {
+          "crate": 63,
+          "name": "hyper"
+        },
+        {
+          "crate": 70,
+          "name": "hyper_timeout"
+        },
+        {
+          "crate": 64,
+          "name": "hyper_util"
+        },
+        {
+          "crate": 21,
+          "name": "percent_encoding"
+        },
+        {
+          "crate": 65,
+          "name": "pin_project"
+        },
+        {
+          "crate": 30,
+          "name": "socket2"
+        },
+        {
+          "crate": 31,
+          "name": "sync_wrapper"
+        },
+        {
+          "crate": 58,
+          "name": "tokio"
+        },
+        {
+          "crate": 59,
+          "name": "tokio_stream"
+        },
+        {
+          "crate": 67,
+          "name": "tower"
+        },
+        {
+          "crate": 32,
+          "name": "tower_layer"
+        },
+        {
+          "crate": 33,
+          "name": "tower_service"
+        },
+        {
+          "crate": 61,
+          "name": "tracing"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions",
+        "feature=\"channel\"",
+        "feature=\"codegen\"",
+        "feature=\"default\"",
+        "feature=\"router\"",
+        "feature=\"server\"",
+        "feature=\"transport\""
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "tonic",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tonic-0.14.1",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "tonic",
+        "CARGO_PKG_VERSION": "0.14.1",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "14",
+        "CARGO_PKG_VERSION_PATCH": "1",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__tonic-0.14.1"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "tonic_protobuf",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tonic-protobuf-0.14.0/src/lib.rs",
+      "edition": "2021",
+      "deps": [
+        {
+          "crate": 2,
+          "name": "bytes"
+        },
+        {
+          "crate": 25,
+          "name": "protobuf"
+        },
+        {
+          "crate": 71,
+          "name": "tonic"
+        }
+      ],
+      "is_workspace_member": false,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "tonic_protobuf",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/external/rules_rust++crate+crates__tonic-protobuf-0.14.0",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "tonic_protobuf",
+        "CARGO_PKG_VERSION": "0.14.0",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "14",
+        "CARGO_PKG_VERSION_PATCH": "0",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "rules_rust++crate+crates__tonic-protobuf-0.14.0"
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "configuration_service_proto",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/proto/configuration_service/v1/lib.rs",
+      "edition": "2024",
+      "deps": [
+        {
+          "crate": 38,
+          "name": "common_proto"
+        },
+        {
+          "crate": 39,
+          "name": "configuration_proto"
+        },
+        {
+          "crate": 25,
+          "name": "protobuf"
+        },
+        {
+          "crate": 71,
+          "name": "tonic"
+        },
+        {
+          "crate": 72,
+          "name": "tonic_protobuf"
+        }
+      ],
+      "is_workspace_member": true,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "configuration_service_proto",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/proto/configuration_service/v1",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "configuration_service_proto",
+        "CARGO_PKG_VERSION": "0.0.0",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "0",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": ""
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "group_object_service_proto",
+      "root_module": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/bazel-out/darwin_arm64-fastbuild/bin/proto/group_object_service/v1/lib.rs",
+      "edition": "2024",
+      "deps": [
+        {
+          "crate": 38,
+          "name": "common_proto"
+        },
+        {
+          "crate": 40,
+          "name": "group_object_proto"
+        },
+        {
+          "crate": 25,
+          "name": "protobuf"
+        },
+        {
+          "crate": 71,
+          "name": "tonic"
+        },
+        {
+          "crate": 72,
+          "name": "tonic_protobuf"
+        }
+      ],
+      "is_workspace_member": true,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "group_object_service_proto",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/proto/group_object_service/v1",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "group_object_service_proto",
+        "CARGO_PKG_VERSION": "0.0.0",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "0",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": ""
+      },
+      "is_proc_macro": false
+    },
+    {
+      "display_name": "grpc_server",
+      "root_module": "/Users/berendjanlange/Developer/rust-bazel-starter/rust/grpc_server/main.rs",
+      "edition": "2024",
+      "deps": [
+        {
+          "crate": 38,
+          "name": "common_proto"
+        },
+        {
+          "crate": 39,
+          "name": "configuration_proto"
+        },
+        {
+          "crate": 73,
+          "name": "configuration_service_proto"
+        },
+        {
+          "crate": 40,
+          "name": "group_object_proto"
+        },
+        {
+          "crate": 74,
+          "name": "group_object_service_proto"
+        },
+        {
+          "crate": 25,
+          "name": "protobuf"
+        },
+        {
+          "crate": 58,
+          "name": "tokio"
+        },
+        {
+          "crate": 71,
+          "name": "tonic"
+        },
+        {
+          "crate": 72,
+          "name": "tonic_protobuf"
+        },
+        {
+          "crate": 68,
+          "name": "uuid"
+        },
+        {
+          "crate": 37,
+          "name": "direct_messenger"
+        }
+      ],
+      "is_workspace_member": true,
+      "cfg": [
+        "test",
+        "debug_assertions"
+      ],
+      "target": "aarch64-apple-darwin",
+      "env": {
+        "CARGO_CFG_TARGET_ARCH": "aarch64",
+        "CARGO_CFG_TARGET_OS": "macos",
+        "CARGO_CRATE_NAME": "grpc_server",
+        "CARGO_MANIFEST_DIR": "/private/var/tmp/_bazel_berendjanlange/1e69d679eba400b3827e2116b3b2d0db/execroot/_main/rust/grpc_server",
+        "CARGO_PKG_AUTHORS": "",
+        "CARGO_PKG_DESCRIPTION": "",
+        "CARGO_PKG_HOMEPAGE": "",
+        "CARGO_PKG_NAME": "grpc_server",
+        "CARGO_PKG_VERSION": "0.0.0",
+        "CARGO_PKG_VERSION_MAJOR": "0",
+        "CARGO_PKG_VERSION_MINOR": "0",
+        "CARGO_PKG_VERSION_PATCH": "0",
+        "CARGO_PKG_VERSION_PRE": "",
+        "REPOSITORY_NAME": "",
+        "ZERO_AR_DATE": "1"
+      },
+      "is_proc_macro": false,
+      "build": {
+        "label": "rust/grpc_server:grpc_server",
+        "build_file": "/Users/berendjanlange/Developer/rust-bazel-starter/rust/grpc_server/BUILD.bazel",
+        "target_kind": "bin"
+      }
+    }
+  ],
+  "runnables": [
+    {
+      "program": "bazel",
+      "args": [
+        "build",
+        "{label}"
+      ],
+      "cwd": "/Users/berendjanlange/Developer/rust-bazel-starter",
+      "kind": "check"
+    },
+    {
+      "program": "bazel",
+      "args": [
+        "test",
+        "{label}",
+        "--test_output",
+        "streamed",
+        "--test_arg",
+        "--nocapture",
+        "--test_arg",
+        "--exact",
+        "--test_arg",
+        "{test_id}"
+      ],
+      "cwd": "/Users/berendjanlange/Developer/rust-bazel-starter",
+      "kind": "testOne"
+    },
+    {
+      "program": "bazel",
+      "args": [
+        "run",
+        "rust/grpc_server:grpc_server"
+      ],
+      "cwd": "/Users/berendjanlange/Developer/rust-bazel-starter",
+      "kind": "run"
+    }
+  ]
+}

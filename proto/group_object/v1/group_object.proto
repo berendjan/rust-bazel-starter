@@ -1,0 +1,72 @@
+syntax = "proto3";
+
+package group_object.v1;
+
+import "common/v1/common.proto";
+
+// Versioning is achieved through optimistic locking
+message GroupObjectProto {
+  common.v1.GroupObjectIdProto object_id = 1;     // kept
+  common.v1.ConfigurationIdProto group_id = 2;    // kept
+  uint64 version = 3;                             // kept
+  common.v1.ConfigurationIdProto uploaded_by = 4; // deleted
+  bytes encrypted_json_data = 5;                  // deleted
+  optional string blob_url = 6;                   // deleted
+}
+
+// Send request for updates
+message GetGroupObjectVersionRequestProto {
+  common.v1.ConfigurationIdProto account_id = 1;
+  uint64 updated_since = 2;
+}
+
+// Receive updates
+message GetGroupObjectVersionResponseProto {
+  message GroupObjectVersionProto {
+    common.v1.GroupObjectIdProto object_id = 1;
+    uint64 version = 2;
+  }
+  repeated GroupObjectVersionProto group_object_versions = 1;
+}
+
+// Send request for missing objects
+message GroupObjectUpdatesRequestProto {
+  common.v1.ConfigurationIdProto account_id = 1;
+  common.v1.ConfigurationIdProto group_id = 2;
+  repeated common.v1.GroupObjectIdProto object_id = 3;
+}
+
+// Other peers request wanted objects
+message RequestedGroupObjectEventProto {
+  common.v1.ConfigurationIdProto group_id = 1;
+  common.v1.GroupObjectIdProto object_id = 2;
+}
+
+// One of of all group object events
+message GroupObjectEventProto {
+  oneof event { RequestedGroupObjectEventProto requested_group_object = 1; }
+}
+
+// Other users request group object events {
+message ListGroupObjectEventsRequestProto {
+  common.v1.ConfigurationIdProto account_id = 1;
+  common.v1.ConfigurationIdProto group_id = 2;
+}
+
+// Response with all configuration events
+message ListGroupObjectEventsResponseProto {
+  repeated GroupObjectEventProto group_object_events = 1;
+}
+
+// User creates or updates a group object
+message UpsertGroupObjectRequestProto {
+  common.v1.ConfigurationIdProto account_id = 1;
+  GroupObjectProto group_object = 2;
+  optional bytes blob_data = 3;
+}
+
+// Receive missing objects
+message GroupObjectUpdatesResponseProto {
+  repeated GroupObjectProto group_objects = 1;
+  repeated common.v1.GroupObjectIdProto missing_object_ids = 2;
+}

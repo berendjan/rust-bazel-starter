@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package group_object_service.v1;
+
+import "common/v1/common.proto";
+import "group_object/v1/group_object.proto";
+
+service GroupObject {
+  // Get versions of all group objects in a group
+  rpc GetGroupObjectVersion(group_object.v1.GetGroupObjectVersionRequestProto)
+      returns (group_object.v1.GetGroupObjectVersionResponseProto);
+
+  // Get missing group objects in a group
+  rpc GroupObjectUpdates(group_object.v1.GroupObjectUpdatesRequestProto)
+      returns (group_object.v1.GroupObjectUpdatesResponseProto);
+
+  // List all group object events for a group
+  rpc ListGroupObjectEvents(group_object.v1.ListGroupObjectEventsRequestProto)
+      returns (group_object.v1.ListGroupObjectEventsResponseProto);
+
+  // List all group object events for a group
+  rpc UpsertGroupObject(group_object.v1.UpsertGroupObjectRequestProto)
+      returns (common.v1.StatusResponseProto);
+}

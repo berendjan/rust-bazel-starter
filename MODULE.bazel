@@ -1,0 +1,76 @@
+"""Rust-Bazel-Starter"""
+
+module(
+    name = "rust-bazel-starter",
+    version = "0.0.0",
+)
+
+###############################################################################
+# bazel rules
+# https://registry.bazel.build
+###############################################################################
+
+bazel_dep(name = "rules_rust", version = "0.67.0")  # https://github.com/bazelbuild/rules_rust/releases
+# bazel_dep(name = "bazel_skylib", version = "1.8.2")
+# bazel_dep(name = "platforms", version = "1.0.0")
+# bazel_dep(name = "protobuf", version = "32.0")
+
+###############################################################################
+# protoc and protoc-gen-rust-grpc binaries
+# https://github.com/hyperium/tonic/tree/master/protoc-gen-rust-grpc
+###############################################################################
+
+bazel_dep(name = "rules_cc", version = "0.2.13")
+bazel_dep(name = "rules_foreign_cc", version = "0.15.1")
+
+http_archive = use_repo_rule("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+
+http_archive(
+    name = "tonic",
+    urls = ["https://github.com/hyperium/tonic/archive/refs/heads/master.tar.gz"],
+    strip_prefix = "tonic-master",
+    build_file_content = """
+filegroup(
+    name = "srcs",
+    srcs = glob(["protoc-gen-rust-grpc/**"]),
+    visibility = ["//visibility:public"],
+)
+""",
+)
+
+###############################################################################
+# Rust toolchain
+# https://github.com/bazelbuild/rules_rust/releases
+###############################################################################
+
+rust = use_extension("@rules_rust//rust:extensions.bzl", "rust")
+rust.toolchain(
+    edition = "2024",
+    extra_target_triples = [
+        "aarch64-apple-darwin",
+        "aarch64-unknown-linux-gnu",
+        "x86_64-unknown-linux-gnu",
+    ],
+    versions = ["1.91.0"],
+)
+use_repo(rust, "rust_toolchains")
+
+###############################################################################
+# Rust direct dependencies.
+# https://bazelbuild.github.io/rules_rust/crate_universe_bzlmod.html#direct-dependencies
+###############################################################################
+
+crate = use_extension("@rules_rust//crate_universe:extensions.bzl", "crate")
+
+crate.spec(package = "protobuf", version = "4.32.0-release")
+crate.spec(package = "serde", features = ["derive"], version = "1.0")
+crate.spec(package = "serde_json", version = "1.0")
+crate.spec(package = "tokio", default_features = False, features = ["macros", "signal", "rt-multi-thread"], version = "1.45.1")
+crate.spec(package = "uuid", features = ["serde", "v4"], version = "1.17.0")
+
+crate.spec(git = "https://github.com/hyperium/tonic", branch = "master", package = "tonic")
+crate.spec(git = "https://github.com/hyperium/tonic", branch = "master", package = "tonic-protobuf")
+crate.spec(git = "https://github.com/hyperium/tonic", branch = "master", package = "grpc")
+
+crate.from_specs()
+use_repo(crate, "crates")

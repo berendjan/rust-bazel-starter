@@ -1,0 +1,102 @@
+syntax = "proto3";
+
+package configuration.v1;
+
+import "common/v1/common.proto";
+
+message AccountConfigurationProto {
+  common.v1.ConfigurationIdProto account_id = 1;
+}
+
+message AccountCreationRequestProto { string name = 1; }
+
+message AccountDeletionRequestProto {}
+
+// User sends invitation to another user with inviter_id, group_id, invite_id
+
+// User requests to join a group with invite_id, group_id, user_id
+message RequestToJoinGroupProto {
+  common.v1.ConfigurationIdProto account_id = 1;
+  common.v1.ConfigurationIdProto group_id = 2;
+  common.v1.ConfigurationIdProto inviter_id = 3;
+  common.v1.ConfigurationIdProto invite_id = 4;
+  bytes x25519_public_key = 5; // Assymetric key exchange public key of invitee
+}
+
+// Server stores in ConfigurationEvent table
+message PendingMemberEventProto {
+  common.v1.ConfigurationIdProto account_id = 1;
+  common.v1.ConfigurationIdProto group_id = 2;
+  common.v1.ConfigurationIdProto inviter_id = 3;
+  common.v1.ConfigurationIdProto invite_id = 4;
+  bytes x25519_public_key = 5; // Assymetric key exchange public key of invitee
+}
+
+// User retrieves configuration events
+// 1. checks the invite id for local match, else send back deny message
+// 2. encrypts the group secret key
+// 3. sends back AcceptRequestToJoinGroupProto message
+message AcceptRequestToJoinGroupProto {
+  common.v1.ConfigurationIdProto account_id = 1;
+  common.v1.ConfigurationIdProto group_id = 2;
+  common.v1.ConfigurationIdProto invitee_id = 3;
+  bytes encrypted_group_key = 4; // Encrypted group key with public key
+}
+
+message DenyRequestToJoinGroupProto {
+  common.v1.ConfigurationIdProto account_id = 1;
+  common.v1.ConfigurationIdProto group_id = 2;
+  common.v1.ConfigurationIdProto invitee_id = 3;
+}
+
+// Server stores new pending member accepted event which is picked up by invitee
+message PendingMemberAcceptedEventProto {
+  common.v1.ConfigurationIdProto account_id = 1;
+  common.v1.ConfigurationIdProto group_id = 2;
+  bytes encrypted_group_key = 3; // Encrypted group key with public key
+}
+
+// Union of all configuration events, stored as jsonb
+message ConfigurationEventProto {
+  oneof event {
+    PendingMemberEventProto pending_member_event = 1;
+    PendingMemberAcceptedEventProto pending_member_accepted_event = 2;
+  }
+}
+
+// Request all configuration events {
+message ListConfigurationEventsRequestProto {
+  common.v1.ConfigurationIdProto account_id = 1;
+  common.v1.ConfigurationIdProto group_id = 2;
+}
+
+// Response with all configuration events
+message ListConfigurationEventsResponseProto {
+  repeated ConfigurationEventProto configuration_events = 1;
+}
+
+// Group configuration with members
+message GroupConfigurationProto {
+  message MemberProto { common.v1.ConfigurationIdProto account_id = 1; }
+
+  common.v1.ConfigurationIdProto group_id = 1;
+  uint64 group_id_key = 2; // used for creating group objects so they are sorted
+                           // together in the database
+  repeated MemberProto members = 3;
+}
+
+// CRUD operations for groups
+message CreateGroupRequestProto {
+  common.v1.ConfigurationIdProto account_id = 1;
+}
+
+message ListGroupsRequestProto {
+  common.v1.ConfigurationIdProto account_id = 1;
+}
+
+message ListGroupsResponseProto { repeated GroupConfigurationProto groups = 1; }
+
+message MemberDeletionRequestProto {
+  common.v1.ConfigurationIdProto account_id = 1;
+  common.v1.ConfigurationIdProto group_id = 2;
+}

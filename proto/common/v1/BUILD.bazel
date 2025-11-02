@@ -1,0 +1,8 @@
+load("//:proto/rust_proto_gen.bzl", "rust_proto_gen")
+
+rust_proto_gen(
+    name = "common_proto",
+    srcs = ["common.proto"],
+    mod = "common",
+    proto_dir = "proto/common/v1",
+)
